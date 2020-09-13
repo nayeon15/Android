@@ -1,6 +1,6 @@
 ### Retrofit이란?
 
-+ Retrofit은 REST API로, __서버와 클라이언트간 Http 통신을 위한 인터페이스__를 뜻한다.
++ Retrofit은 REST API로, **서버와 클라이언트간 Http 통신을 위한 인터페이스**를 뜻한다.
 + 클라이언트에서 서버로 어떠한 요청을 보내면 서버는 그 요청에 대한 응답을 클라이언트로 보내주게 되는데, 이 일련의 과정들을 쉽게 사용 할 수 있도록 도와주는 역할을 하는 것이  Retrofit이다.
 + Retrofit은 Typesafe한 HttpClient 라이브러리다.
   + Typesafe: 네트워크로부터 전달된 데이터를 프로그램에서 필요한 형태의 객체로 받을 수 있다.
@@ -67,7 +67,7 @@ manifests.xml
 
 ### Retrofit 객체 초기화하기
 
-__Retrofit 객체를 초기화__한다.
+**Retrofit 객체를 초기화**한다.
 
 ```java
 MainActivity.java
@@ -100,7 +100,7 @@ string.xml에 등록했던 Base URL을 이용해서 작성한다. 위와 같은 
 
 ### 인터페이스 정의하기
 
-__Http Method (GET, POST, PUT, DELETE 등)와 자원의 정보를 정의 할 인터페이스__를 구현해야한다.
+**Http Method (GET, POST, PUT, DELETE 등)와 자원의 정보를 정의 할 인터페이스**를 구현해야한다.
 
 class 생성 후 작성한다.
 
@@ -237,7 +237,7 @@ public class MovieListVO {
 }
 ```
 
-작성할 때, 중요한 점은 __응답 받을 데이터 구조와 같은 구조이어야 하며 변수 명도 같아야 한다.__
+작성할 때, 중요한 점은 **응답 받을 데이터 구조와 같은 구조이어야 하며 변수 명도 같아야 한다.**
 
 아까 응답 받은 데이터에 적용시키면 밑 코드와 같다.
 
