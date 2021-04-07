@@ -21,7 +21,8 @@
 
 **사용자 인터페이스와 비즈니스 로직을 분리**하여 어플리케이션의 시각적 요소나 애플리케이션 안에서 실행되는 비즈니스 로직을 서로 영향없이 쉽게 고칠 수 있다.
 
-![image-20210405231258696](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210405231258696.png)
+![image](https://user-images.githubusercontent.com/66716819/113811659-96c8b280-97a7-11eb-8ac9-bdba9ccccc24.png)
+
 
 ### Model (비즈니스 로직)
 
@@ -67,7 +68,8 @@
 
 컨트롤러와 달리 **프리젠터**는 종속되어 있지 않아도 모델과 뷰를 연결하여 MVC 패턴이 가지고 있던 **단점의 일부를 해결**하였다.
 
-![image-20210405232638467](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210405232638467.png)
+![image](https://user-images.githubusercontent.com/66716819/113811702-a9db8280-97a7-11eb-8f11-1cb80c8730fc.png)
+
 
 ### Model
 
@@ -114,7 +116,8 @@ WRF나 SilverLight에서 많이 사용되는 프레임워크 패턴이다. Model
 
 MVP와 마찬가지로 **View에서 입력이** 들어오면 Command 패턴을 통해 **ViewModel에 명령**을 내리게 되고 **Data Binding으로 인해 ViewModel의 값이 변화**하면 바로 View의 정보가 바뀌어져 버리게 된다.
 
-![image-20210405234034492](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20210405234034492.png)
+![image](https://user-images.githubusercontent.com/66716819/113811760-c1b30680-97a7-11eb-90f0-8543ec686bc6.png)
+
 
 ### Model
 
