@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">sosoday_sotory</string>
+
+    <!-- Sign In -->
+
+    <!-- Bottom Navigation View -->
+
+    <!-- Account -->
+
+    <!-- Alarm -->
+
+    <!-- Comment -->
+
+    <!-- Add Photo -->
+
+    <!-- Toolbar -->
+
+    <!-- etc -->
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+</resources>
