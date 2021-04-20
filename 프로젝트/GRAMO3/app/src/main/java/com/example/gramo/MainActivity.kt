@@ -11,14 +11,15 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        var datalist = arrayListOf<Data>()
 
         calendarView.setOnDateChangedListener { materialCalendarView: MaterialCalendarView, calendarDay: CalendarDay, b: Boolean ->
             val bottomDialogFragment: BottomDialogFragment = BottomDialogFragment {
                 when (it){
-                    0 ->
                 }
             }
             bottomDialogFragment.show(supportFragmentManager, bottomDialogFragment.tag)
         }
+
     }
 }

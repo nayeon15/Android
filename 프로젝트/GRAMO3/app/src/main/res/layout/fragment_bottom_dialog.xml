@@ -65,7 +65,6 @@
         app:layout_constraintTop_toBottomOf="@+id/divider"
         app:srcCompat="@drawable/add" />
 
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -92,7 +91,7 @@
 
     <View
         android:id="@+id/divider"
-        android:layout_width="409dp"
+        android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="200dp"
         android:background="?android:attr/listDivider"
@@ -110,10 +109,18 @@
         app:srcCompat="@drawable/blue_dot" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
         android:layout_width="409dp"
         android:layout_height="70dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="129dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/picu_tv" />
 
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/picu_tv"
+        android:text="test"
+        android:id="@+id/test"
+        android:visibility="gone" />
 </androidx.constraintlayout.widget.ConstraintLayout>
