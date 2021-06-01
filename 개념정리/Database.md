@@ -23,7 +23,7 @@ SQL은 데이터베이스에서 데이터를 정의, 조작, 제어하기 위해
 
 1. DDL (Data Definition Laguage)
 2. DML (Data Maniqulation Laguage)
-3. DCL (Data Control Laguage)
+3. DCL (Data Control Laguage).
 
 | 속성 |                             설명                             |            주요 명령어            |
 | :--: | :----------------------------------------------------------: | :-------------------------------: |
