@@ -2,7 +2,7 @@
 
 __정의__
 
-HTTP 통신은 REST API를 통해서 데이터를 서버와 클라우드가 주고 받는다. 주로 DB에 존재하는 데이터를 가져오기 위해 서버 통신을 한다. 하지만 안드로이드의 특성상 외부 DB에 직접 접근할 수가 없도록 되어있어 중간 매체인 WEB을 활용해야 한다. (WEB은 HTML, JSP, PHP, SERVLET 등이 있다.)
+HTTP 통신은 REST API를 통해서 데이터를 서버와 클라우드가 주고 받는다. 주로 DB에 존재하는 데이터를 가져오기 위해 서버 통신을 한다. 하지만 안드로이드의 특성상 외부 DB에 직접 접근할 수가 없도록 되어있어 중간 매체인 WEB을 활용해야 한다. (WEB은 HTML, JSP, PHP, SERVLET 등이 있다.
 
 ![img](https://t1.daumcdn.net/cfile/tistory/2208EF3E5900C7E43E)
 
